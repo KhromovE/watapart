@@ -1,0 +1,18 @@
+{
+  "presets": ["next/babel", "env"],
+  "plugins": [
+    [
+      "react-css-modules",
+      {
+        "filetypes": {
+          ".scss": {
+            "syntax": "postcss-scss"
+          }
+        },
+        "generateScopedName": "[hash:base64]",
+        "exclude": "node_modules",
+        "webpackHotModuleReloading": true
+      }
+    ]
+  ]
+}
