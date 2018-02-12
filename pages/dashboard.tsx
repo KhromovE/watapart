@@ -4,9 +4,11 @@ import * as React from 'react'
 export default () => (
   <div>
     <div>About us</div>
-    <div>Back to
+    <div>Back to{' '}
       <Link href="/">
-        <a>Home</a>
+        <a>
+          Home
+        </a>
       </Link>
     </div>
   </div>
