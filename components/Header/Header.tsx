@@ -1,7 +1,9 @@
 import * as React from 'react'
 
+import './Header.scss'
+
 const Header = () => (
-  <React.Fragment>
-    <p>Hello World</p>
-  </React.Fragment>
+  <div styleName="header" />
 )
+
+export default Header
