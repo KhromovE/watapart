@@ -10,6 +10,7 @@
       "next/document",
       "next/link"
     ],
-    "member-ordering": false
+    "member-ordering": false,
+    "variable-name": [true, "allow-pascal-case"]
   }
 }
