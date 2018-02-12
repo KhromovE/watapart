@@ -1,19 +1,7 @@
-import React from 'react'
-import Head from 'next/head'
-
-import './index.scss'
-
-declare const NEXT_ENV: string
+import * as React from 'react'
 
 export default () => (
-  <div styleName="root">
-    <Head>
-      {
-        NEXT_ENV === 'production' && (
-          <link rel="stylesheet" href="/_next/static/style.css" />
-        )
-      }
-    </Head>
+  <div>
     <p>Hello World</p>
   </div>
 )
