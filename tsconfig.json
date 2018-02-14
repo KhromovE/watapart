@@ -15,7 +15,12 @@
     "typeRoots": [
       "node_modules/@types",
       "types"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "layout/*": ["./layouts/*"],
+      "components/*": ["./components/*"]
+    }
   },
   "exclude": [
     "node_modules",

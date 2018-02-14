@@ -13,6 +13,16 @@
         "exclude": "node_modules",
         "webpackHotModuleReloading": true
       }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "components": "./components",
+          "layouts": "./layouts"
+        }
+      }
     ]
   ]
 }

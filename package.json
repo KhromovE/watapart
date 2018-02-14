@@ -25,6 +25,7 @@
     "@types/react-css-modules": "^4.6.0",
     "@zeit/next-sass": "0.0.9",
     "@zeit/next-typescript": "0.0.8",
+    "babel-plugin-module-resolver": "^3.0.0",
     "babel-plugin-react-css-modules": "^3.3.3",
     "cssnano": "^3.10.0",
     "node-sass": "^4.7.2",
