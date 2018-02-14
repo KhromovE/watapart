@@ -3,7 +3,7 @@ import * as React from 'react'
 import './Header.scss'
 
 const Header = () => (
-  <div styleName="header" />
+  <header styleName="header" />
 )
 
 export default Header

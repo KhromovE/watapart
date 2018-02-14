@@ -1,10 +1,9 @@
 import * as React from 'react'
 
-import Header from '../components/Header/Header'
+import MainLayout from 'layouts/Main/Main'
 
 export default () => (
-  <React.Fragment>
-    <Header />
-    <p>Hello World</p>
-  </React.Fragment>
+  <MainLayout>
+    <div>Hello World</div>
+  </MainLayout>
 )

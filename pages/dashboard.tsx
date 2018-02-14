@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import * as React from 'react'
 
+import Main from 'layouts/Main/Main'
+
 export default () => (
-  <div>
+  <Main>
     <div>About us</div>
     <div>Back to{' '}
       <Link href="/">
@@ -11,5 +13,5 @@ export default () => (
         </a>
       </Link>
     </div>
-  </div>
+  </Main>
 )
