@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+  margin: auto;
+
+  &.lg {
+    width: 1600px;
+  }
+  &.md {
+    width: 980px;
+  }
+}

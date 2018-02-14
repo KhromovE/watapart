@@ -8,6 +8,7 @@
     "no-submodule-imports": false,
     "member-ordering": false,
     "variable-name": [true, "allow-pascal-case"],
-    "no-implicit-dependencies": false
+    "no-implicit-dependencies": false,
+    "no-unused-locals": true
   }
 }

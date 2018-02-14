@@ -1,4 +1,6 @@
 import * as React from 'react'
+
+import Container from 'components/Container/Container'
 import Header from 'components/Header/Header'
 
 import './Main.scss'
@@ -11,7 +13,9 @@ const Main = ({ children }: InterfaceProps) => (
   <React.Fragment>
     <Header />
     <main>
-      {children}
+      <Container size="md">
+        {children}
+      </Container>
     </main>
   </React.Fragment>
 )
