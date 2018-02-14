@@ -5,12 +5,9 @@
     "quotemark": [true, "single", "jsx-double"],
     "indent": [true, "spaces", 2],
     "import-name": [false, "never"],
-    "no-submodule-imports": [
-      true,
-      "next/document",
-      "next/link"
-    ],
+    "no-submodule-imports": false,
     "member-ordering": false,
-    "variable-name": [true, "allow-pascal-case"]
+    "variable-name": [true, "allow-pascal-case"],
+    "no-implicit-dependencies": false
   }
 }
