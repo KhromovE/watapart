@@ -1,3 +1,21 @@
 main {
-  margin-top: 80px;
+  min-height: 100vh;
+  display: block;
+  position: relative;
+
+  &::after {
+    content: '';
+    background-image: url('/static/background.jpg');
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .content {
+    padding-top: 80px;
+  }
 }

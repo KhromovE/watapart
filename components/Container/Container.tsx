@@ -3,8 +3,8 @@ import * as React from 'react'
 import './Container.scss'
 
 interface IProps {
-  children?: object,
-  size: 'lg' | 'md',
+  children: object,
+  size?: 'lg' | 'md',
 }
 
 const Header = ({ children, size = 'md' }: IProps) => (
