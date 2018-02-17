@@ -20,7 +20,8 @@
     "baseUrl": ".",
     "paths": {
       "layout/*": ["./layouts/*"],
-      "components/*": ["./components/*"]
+      "components/*": ["./components/*"],
+      "types/*": ["./types/*"]
     }
   },
   "exclude": [

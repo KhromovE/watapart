@@ -1,9 +1,10 @@
 import * as React from 'react'
 
-import MainLayout from 'layouts/Main/Main'
+import Main from 'layouts/Main/Main'
+import SearchField from 'components/SearchField/SearchField'
 
 export default () => (
-  <MainLayout>
-    <div>Hello World</div>
-  </MainLayout>
+  <Main>
+    <SearchField />
+  </Main>
 )
