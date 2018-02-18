@@ -7,10 +7,10 @@ interface IProps {
   size?: 'lg' | 'md',
 }
 
-const Header = ({ children, size = 'md' }: IProps) => (
+const Container = ({ children, size = 'md' }: IProps) => (
   <div styleName={`container ${size}`}>
     {children}
   </div>
 )
 
-export default Header
+export default Container
