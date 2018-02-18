@@ -21,7 +21,8 @@
         "alias": {
           "components": "./components",
           "layouts": "./layouts",
-          "types": "./types"
+          "types": "./types",
+          "styles": "./styles"
         }
       }
     ]

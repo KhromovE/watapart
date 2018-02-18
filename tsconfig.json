@@ -21,7 +21,8 @@
     "paths": {
       "layout/*": ["./layouts/*"],
       "components/*": ["./components/*"],
-      "types/*": ["./types/*"]
+      "types/*": ["./types/*"],
+      "styles/*": ["./styles/*"]
     }
   },
   "exclude": [
