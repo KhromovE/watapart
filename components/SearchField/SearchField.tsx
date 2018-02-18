@@ -30,6 +30,9 @@ class FindField extends React.PureComponent<IProps, IState> {
       <div styleName="search-field-wrapper">
         <div styleName="search-field">
           <input value={searchValue} onChange={this.onChangeSearchValue} />
+          <button>
+            Find
+          </button>
         </div>
       </div>
     )
