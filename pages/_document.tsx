@@ -3,10 +3,18 @@ import * as React from 'react'
 
 declare const NEXT_ENV: string
 
-const styles: object = {
+const baseStyles: object = {
+  height: '100%',
+}
+
+const htmlStyles: object = {
+  ...baseStyles,
+}
+
+const bodyStyles: object = {
+  ...baseStyles,
   fontFamily: 'Open Sans, sans-serif',
   margin: 0,
-  minHeight: '100vh',
   padding: 0,
 }
 
@@ -28,7 +36,7 @@ export default class MyDocument extends Document {
 
   public render() {
     return (
-      <html>
+      <html style={htmlStyles}>
       <Head>
         {this.addStylesheet()}
         <title>What about this apartment</title>
@@ -39,7 +47,7 @@ export default class MyDocument extends Document {
         />
       </Head>
       <body
-        style={styles}
+        style={bodyStyles}
       >
       <Main />
       <NextScript />
