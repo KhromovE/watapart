@@ -4,4 +4,9 @@
   height: 80px;
   width: 100%;
   position: absolute;
+
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+  }
 }
