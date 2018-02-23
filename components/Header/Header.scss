@@ -1,12 +1,26 @@
+@import 'styles/colors';
+
 .header {
   top: 0;
   left: 0;
   height: 80px;
   width: 100%;
   position: absolute;
+  color: $white;
+
+  .header__container {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+  }
 
   .header__menu {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+
+    & > ul {
+      display: flex;
+      list-style-type: none;
+    }
   }
 }
