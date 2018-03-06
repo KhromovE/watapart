@@ -9,13 +9,14 @@
     "build": "next build",
     "start": "next start -p 3001",
     "tsc": "./node_modules/typescript/bin/tsc",
-    "tslint": "./node_modules/tslint/bin/tslint \"./**/*.ts\" \"./**/*.tsx\" --project ./tsconfig.json -e \"node_modules/**\"",
+    "lint": "./node_modules/tslint/bin/tslint \"./**/*.ts\" \"./**/*.tsx\" --project ./tsconfig.json -e \"node_modules/**\"",
     "pre-commit": "npm run tslint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-sass": "^0.1.1",
     "antd": "^3.2.3",
     "next": "^5.0.0",
     "react": "^16.2.0",
@@ -29,8 +30,7 @@
     "@types/react": "^16.0.36",
     "@types/react-css-modules": "^4.6.0",
     "@types/react-dom": "^16.0.3",
-    "@zeit/next-sass": "0.0.9",
-    "@zeit/next-typescript": "0.0.8",
+    "@zeit/next-typescript": "0.0.10",
     "babel-plugin-module-resolver": "^3.0.0",
     "babel-plugin-react-css-modules": "^3.3.3",
     "cssnano": "^3.10.0",
@@ -50,7 +50,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run tslint"
+      "pre-commit": "npm run lint"
     }
   }
 }

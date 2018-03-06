@@ -24,21 +24,11 @@ export default class MyDocument extends Document {
     return { html, head, errorHtml, chunks }
   }
 
-  private addStylesheet = () => {
-    if (NEXT_ENV === 'production') {
-      return (
-        <link rel="stylesheet" href="/_next/static/style.css" />
-      )
-    }
-
-    return null
-  }
-
   public render() {
     return (
       <html style={htmlStyles}>
       <Head>
-        {this.addStylesheet()}
+        <link rel="stylesheet" href="/_next/static/style.css" />
         <title>What about this apartment</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link

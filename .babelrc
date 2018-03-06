@@ -9,7 +9,7 @@
             "syntax": "postcss-scss"
           }
         },
-        "generateScopedName": "[hash:base64]",
+        "generateScopedName": "[local]___[hash:base64:5]",
         "exclude": "node_modules",
         "webpackHotModuleReloading": true
       }
